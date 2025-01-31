@@ -89,7 +89,7 @@ To make sure Client 1's DNS Settings is set to DC-1 we can use the command "ipco
 
 ![15](https://github.com/user-attachments/assets/131b7a99-4a95-43f2-8935-dddd182c213e)
 
-DC-1's private IP address needs to be static, if it's set to dynamic the IP address can change constantly when shutting down and reopening the server. If DC-1's IP address changes, VMs relying on the domain controller may have trouble locating it, leading to failures in login, policy application, or even complete domain disconnection. In short, we set DC-1's private IP address to be static for a reliable connection across all VMs in the virtual network. This concludes the tutorial for preparing the Active Directory infrastructure in Microsoft Azure.
+DC-1's private IP address needs to be static, if it's set to dynamic the IP address can change constantly when shutting down and reopening the server. If DC-1's IP address is set to "dynamic" and changes, VMs relying on the domain controller may have trouble locating it, leading to failures in login, policy application, or even complete domain disconnection. In short, we set DC-1's private IP address to be static for a reliable connection across all VMs in the virtual network. This concludes the tutorial for preparing the Active Directory infrastructure in Microsoft Azure.
 
 
 
