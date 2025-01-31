@@ -36,7 +36,7 @@ This tutorial outlines the implementation of on-premises Active Directory within
 ![1](https://github.com/user-attachments/assets/b883b33c-557e-46b8-bb60-0b88be9b714d)
 ![2](https://github.com/user-attachments/assets/49846f6b-8ec1-4d88-9614-7c85ad1ed4f7)
 
-**Adding 2 VMs in the same resource group & v-net**
+**Creating a Domain Controller & Client-side VM**
 
 Now let's add 2 VMs to the same resource group and v-net. We will first create our Domain Controller, select "Windows Server 2022 Data Edition" as it's image and create a local admin account for the DC. Then we will create another VM to join our DC, set the image for the 2nd VM as "Windows 10 Pro, version 22H2". In the Networking section make sure that both VMs are inside the same resource group, region, and v-net. 
 
