@@ -75,7 +75,7 @@ If the ping command fails and instead returns "Request timed out", there are 2 c
 
 **Confirm Client 1's DNS Settings**
 
-To make sure Client 1's DNS Settings is set to DC-1 we can use the command "ipconfig/all". Run the command on Powershell and observe the DNS Settings.
+To make sure Client 1's DNS Settings is set to DC-1 we can use the command "ipconfig /all". Run the command on Powershell and observe the DNS Settings.
 
 ![15](https://github.com/user-attachments/assets/131b7a99-4a95-43f2-8935-dddd182c213e)
 
